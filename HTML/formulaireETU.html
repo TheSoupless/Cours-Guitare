@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="UTF-8">
+	<title>FormulaireETU</title>
+	<link rel="icon" type="image/png" href="guitare.png" />
+	<link href="formulaire_style.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="retourActivité.js"></script>
+</head>
+
+<body onload="">
+	<h1>Formulaire inscription cours guitare</h1>
+	<img src="guitar.jpeg" alt="guit" ><br/>
+	<div id="formInscId">
+		<form action="Inscription.html" method="post"  onsubmit="return verifForm()">
+			<fieldset>
+				<div class="sectionFormInscId">
+					<label for="pseudoID">. Pseudo</label><br/>
+					<label for="pwdID">. Mot de passe</label><br/>
+					<label for="confirmPwdID">. Confirmation du mot de passe</label><br/>
+					<label for="mailID">. Mail</label><br/>
+					<label for="telID">. Tel</label><br/>
+					<input type="submit" value="Inscription !"/>
+				</div>
+				<div class="sectionFormInscId">
+					<input type="text" size="15" id="pseudoID" name="pseudo" onKeyUp="verifLogin()"/><br/>
+					<input type="password" size="15" id="pwdID" name="pwd" onKeyUp="verifSecuMdP()"/>
+					<span  id="forcePwdId">controle</span><br/>
+					<input type="password" size="15" id="confirmPwdID" name="confirmPwd" /><br/>
+					<input type="text" size="15" id="mailID" name="pseudo" onKeyUp="verifMail()"/><br/>
+					<input type="text" size="15" id="telID" name="pseudo" onKeyUp="verifTel()"/><br/>
+				</div>
+			</fieldset>
+			<div id="erreurId"></div>
+		</form>
+	</div>
+</body>
+</html>

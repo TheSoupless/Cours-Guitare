@@ -1,0 +1,38 @@
+div#formInscId{
+    width:440px;
+    padding:10px;
+    position:fixed;
+    left:100px;
+    
+}
+
+.sectionFormInscId{
+    width:300px; 
+    float:left;
+}
+
+span#forcePwdId {
+    color:red;
+    margin-left:10px;
+}
+
+img{
+	display:block;
+	margin-left: 20%
+}
+
+h1 {
+	text-shadow: 0px 0px 9px #1E040F;
+	color: #6860BD;
+	margin-left: 100px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	}
+fieldset {
+	width: 700px;
+    border-style: 1px solid;
+	border-color: blue;
+} 
+body{
+	font-size: 18px;
+}
