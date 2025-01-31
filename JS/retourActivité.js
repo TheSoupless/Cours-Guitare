@@ -1,6 +1,3 @@
-
-
-/*------------------------------------------------*/
 function verifLogin(){
     var pse = document.getElementById('pseudoID');
     var err = document.getElementById('erreurId');
